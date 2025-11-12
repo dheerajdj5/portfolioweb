@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import quizImg from "../assets/projects/download.png";
 import portfolioImg from "../assets/projects/portfolio.png";
 import elearningImg from "../assets/projects/learn.png";
+import landingPageImg from "../assets/projects/landing-page.webp";
+
 export default function Projects() {
   const projects = [
     {
@@ -29,16 +31,16 @@ export default function Projects() {
       source: "https://github.com/dheerajdj5/Elearning-app",
       live: "https://dheerajdj5.github.io/Elearning-app/",
     },
-     {
+ {
       name: "BootStrap-Modern-Web-Page",
-      img: landing-page.webp,
+      img: landingPageImg,
       desc: "A modern landing page using Bootstrap framework.",
       tags: ["HTML", "CSS", "Bootstrap"],
       source: "https://github.com/dheerajdj5/BootStrap-Modern-Web-Page",
       live: "https://bootstrap-modern-web-page.netlify.app/",
     },
   ];
-
+  
   return (
     <section id="projects" className="py-20 bg-gray-50 text-center">
       <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -110,4 +112,3 @@ export default function Projects() {
     </section>
   );
 }
-
