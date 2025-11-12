@@ -29,6 +29,14 @@ export default function Projects() {
       source: "https://github.com/dheerajdj5/Elearning-app",
       live: "https://dheerajdj5.github.io/Elearning-app/",
     },
+     {
+      name: "BootStrap-Modern-Web-Page",
+      img: landing-page.webp,
+      desc: "A modern landing page using Bootstrap framework.",
+      tags: ["HTML", "CSS", "Bootstrap"],
+      source: "https://github.com/dheerajdj5/BootStrap-Modern-Web-Page",
+      live: "https://bootstrap-modern-web-page.netlify.app/",
+    },
   ];
 
   return (
@@ -102,3 +110,4 @@ export default function Projects() {
     </section>
   );
 }
+
