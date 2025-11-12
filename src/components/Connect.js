@@ -1,7 +1,7 @@
 // src/components/Connect.js
 import { FaTwitter, FaInstagram, FaWordpress, FaMedium } from "react-icons/fa";
-import { SiLeetcode, SiDevdotto, SiBento } from "react-icons/si";
-import { MdEmojiEvents } from "react-icons/md"; // For Unstop
+//import { SiLeetcode, SiDevdotto, SiBento } from "react-icons/si";
+//import { MdEmojiEvents } from "react-icons/md"; // For Unstop
 
 export default function Connect() {
   const platforms = [
@@ -38,3 +38,4 @@ export default function Connect() {
     </section>
   );
 }
+
